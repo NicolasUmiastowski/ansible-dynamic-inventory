@@ -42,12 +42,12 @@ class ExampleInventory(object):
                     'ansible_ssh_user': 'centos',
                     'ansible_ssh_private_key_file':
                         '~/.ssh/id_rsa',
-                    'example_variable': 'value'
+                    'ansible_python_interpreter':'/usr/bin/env python'
                 }
             },
             '_meta': {
                 'hostvars': {
-                    '51.255.211.168': {
+                    '172.18.0.3': {
                         'host_specific_var': 'centos'
                     }
                 }
